@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
-  gem.name          = "crack"
+  gem.name          = "crack-without-safe_yaml"
   gem.require_paths = ["lib"]
   gem.version       = Crack::VERSION
   gem.license       = "MIT"
